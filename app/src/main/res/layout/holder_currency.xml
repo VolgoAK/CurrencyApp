@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/holder_height"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    tools:ignore="RtlHardcoded,RtlSymmetry">
+
+    <TextView
+        android:id="@+id/tvCurrencyName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/text_padding"
+        tools:text="Some currency"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray"/>
+
+    <TextView
+        android:id="@+id/tvVolume"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingRight="@dimen/text_padding"
+        android:gravity="center_vertical|right"
+        tools:text="32000"
+         />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray"/>
+
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="0dp"
+        android:paddingRight="@dimen/text_padding"
+        android:gravity="center_vertical|right"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:text="12.00"/>
+</LinearLayout>

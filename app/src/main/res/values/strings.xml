@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Currency</string>
+    <string name="name">Name</string>
+    <string name="amount">Amount</string>
+    <string name="volume">Volume</string>
+    <string name="refresh">refresh</string>
+    <string name="load_error">Loading error</string>
+    <string name="no_network">No available network</string>
+    <string name="update_error">Update error</string>
+</resources>
